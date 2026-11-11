@@ -1,0 +1,28 @@
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+/.aws/
+/.codex/
+
+# Editor and operating system files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Runtime logs and Python cache from local tooling
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Temporary Microsoft Office files (keep original reference documents)
+~$*
+.~lock.*#
